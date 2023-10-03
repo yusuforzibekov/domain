@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello my name is Yusufbek. I am student of ITPU.</h1>
+    <p>Hello my name is Yusufbek. I am student of ITPU.</p>
 </body>
 </html>

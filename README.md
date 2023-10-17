@@ -1,4 +1,3 @@
 ## Hello my dear watchers
 
-* My name is <b>Yusufbek</b> as you know.	
-<a href="https://t.me/yuarzibekov">Here is the link to my telegram</a>
+* This is my portfolio website right now you can see it by this link <a href="https://42yuarzibekov.me" title="Watch it and enjoy">Link</a> as you know.

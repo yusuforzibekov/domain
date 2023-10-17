@@ -101,9 +101,3 @@
     background: red;
     transform: translateY(-15px);
 }
-
-.container{
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-}

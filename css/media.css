@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (max-width: 222px) {
+@media (min-width: 224px) and (max-width: 442px) {
     .navbar_ul {
         display: flex;
         flex-direction: column;

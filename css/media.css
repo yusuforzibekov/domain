@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 442px) {
     .sci {
         width: 100%;
         display: flex;
@@ -25,7 +25,7 @@
 
     .navbar_list {
         font-size: 20px;
-        margin-right: 10px;
+        margin: 3px;
     }
 
     .navbar_list span a {
@@ -34,7 +34,7 @@
     }
 
     .navbar_list span a:hover {
-        color: #000;
+        color: red;
         background: none;
         text-decoration: underline;
     }
@@ -62,11 +62,19 @@
         flex-direction: column;
     }
 
+    .nav_link {
+        font-size: 20px;
+    }
+
     .sci {
         margin: 0;
     }
 
     .sci .fa {
+        margin: 0;
+    }
+
+    .navbar_list {
         margin: 0;
     }
 }

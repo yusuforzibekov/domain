@@ -3,13 +3,11 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
 .header {
     height: 100vh;
-    background: url();
 }
 
 .navbar {
@@ -30,7 +28,6 @@
 
 .navbar_ul {
     display: flex;
-    margin: 0 100px 0 0;
 }
 
 .navbar_list {
@@ -56,16 +53,18 @@
 }
 
 .header_2 {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 300px;
+    
 }
 
 .sci {
-    width: 700px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 

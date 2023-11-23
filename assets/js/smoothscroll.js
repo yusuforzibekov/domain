@@ -109,16 +109,18 @@ function ssc_wheel(e) {
     var r = e.wheelDeltaX || 0;
     var i = e.wheelDeltaY || 0;
     if (!r && !i) {
-        i = e.wheelDelta || 0
+        i = e.wheelDelta || 0;
     }
     if (Math.abs(r) > 1.2) {
-        r *= ssc_stepsize / 120
+        r *= ssc_stepsize / 120;
     }
     if (Math.abs(i) > 1.2) {
-        i *= ssc_stepsize / 120
+        i *= ssc_stepsize / 120;
     }
     ssc_scrollArray(n, -r, -i);
-    e.preventDefault()
+    if (e.cancelable) {
+        e.preventDefault();
+    }
 }
 
 function ssc_keydown(e) {

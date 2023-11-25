@@ -28,4 +28,3 @@ if (isset($_POST['message'])) {
 
 	echo json_encode($res);
 }
-?>
